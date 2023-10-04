@@ -25,15 +25,15 @@
 input{
       grid-column: span 4;
       height: 70px;
-      width: 200px;
+      width: 250px;
       background-color: white;
       box-shadow: inset -5px -5px 12px
                   inset 5px 5px 12px rgb(0, 0, .16);
       border: none;
       border-radius: 30px;
       color: black;
-      font-size: 20px;
-      text-align: end;
+      font-size: 10px;
+      text-align: start;
       margin: auto;
       margin-top: 20px;
       margin-bottom: 20px;
@@ -43,40 +43,48 @@ input{
 button{
       height: 40px;
       width: 40px;
-      background-color: red;
+      background-color: bisque;
       box-shadow: inset -5px -5px 12px
                   inset 5px 5px 12px rgb(0, 0, .16);
        border: none;
       border-radius: 50%;
       margin: 4px;
       font-size: 16px;
-      color: bisque;
-
+      color: black;
 }
 .equal{
       background-color: black ;
+      color: white;
 }
 .delete{
       background-color: black;
+      color: white;
 }
 .percent{
       background-color: black;
+      color: white;
 }
 .divide{
       background-color: black;
+      color: white;
 }
 .subtract{
       background-color: black;
+      color: white;
 }
 .multiply{
       background-color: black;
+      color: white;
 }
 .add{
       background-color: black;
+      color: white;
 }
 .click{
       background-color: black;
+      color: white;
 }
 .clear{
       background-color: black;
+      color: white;
 }
