@@ -1,34 +1,35 @@
-*{
+* {
       padding: 0;
       margin: 0;
       box-sizing: border-box;
       background-color: burlywood;
       font-family: sans-serif;
-      outline:none;
+      outline: none;
 
 }
-.container{
+
+.container {
       height: 100vh;
-      display:flex;
+      display: flex;
       justify-content: center;
       align-items: center;
 }
-.calculator{
+
+.calculator {
       background-color: blue;
       padding: 15px;
       border-radius: 30px;
-      box-shadow: inset -5px -5px 12px #ffff
-                  inset  5px 5px  12px rgba(0,0,0,.16);
+      box-shadow: inset -5px -5px 12px #ffff inset 5px 5px 12px rgba(0, 0, 0, .16);
       display: grid;
 
 }
-input{
+
+input {
       grid-column: span 4;
       height: 70px;
       width: 250px;
       background-color: white;
-      box-shadow: inset -5px -5px 12px
-                  inset 5px 5px 12px rgb(0, 0, .16);
+      box-shadow: inset -5px -5px 12px inset 5px 5px 12px rgb(0, 0, .16);
       border: none;
       border-radius: 30px;
       color: black;
@@ -36,55 +37,73 @@ input{
       text-align: start;
       margin: auto;
       margin-top: 20px;
-      margin-bottom: 20px;
       padding: 20px;
 
 }
-button{
+.inputresult{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height:30px;
+      width: 250px;
+      grid-column: span 4; 
+      border-radius: 30px;  
+      padding: 10px;
+      background-color: white;
+}
+button {
       height: 40px;
       width: 40px;
       background-color: bisque;
-      box-shadow: inset -5px -5px 12px
-                  inset 5px 5px 12px rgb(0, 0, .16);
-       border: none;
+      box-shadow: inset -5px -5px 12px inset 5px 5px 12px rgb(0, 0, .16);
+      border: none;
       border-radius: 50%;
       margin: 4px;
       font-size: 16px;
       color: black;
 }
-.equal{
-      background-color: black ;
-      color: white;
-}
-.delete{
+
+.equal {
       background-color: black;
       color: white;
 }
-.percent{
+
+.delete {
       background-color: black;
       color: white;
 }
-.divide{
+
+.percent {
       background-color: black;
       color: white;
 }
-.subtract{
+
+.divide {
       background-color: black;
       color: white;
 }
-.multiply{
+
+.subtract {
       background-color: black;
       color: white;
 }
-.add{
+
+.multiply {
       background-color: black;
       color: white;
 }
-.click{
+
+.add {
       background-color: black;
       color: white;
 }
-.clear{
+
+.click {
+      background-color: black;
+      color: white;
+
+}
+
+.clear {
       background-color: black;
       color: white;
 }
